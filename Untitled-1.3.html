@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desktop Music App</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#020024,#090979,#00d4ff);
+    min-height:100vh;
+}
+
+/* HEADER */
+header{
+    background:#020617;
+    padding:20px;
+    color:#38bdf8;
+    font-size:26px;
+    font-weight:bold;
+}
+
+/* GRID */
+.container{
+    padding:30px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+/* CARD */
+.card{
+    background:#020617;
+    border-radius:18px;
+    overflow:hidden;
+    color:white;
+    box-shadow:0 15px 30px rgba(0,0,0,0.6);
+    transition:0.4s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+/* IMAGE */
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+/* TEXT */
+.info{
+    padding:15px;
+}
+
+.info h3{
+    margin-bottom:6px;
+}
+
+.info p{
+    font-size:14px;
+    color:#94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<header>🎵 Desktop Music App</header>
+
+<div class="container">
+
+    <!-- Existing Boxes -->
+    <div class="card">
+        <img src="muruga.jpg">
+        <div class="info">
+            <h3>Murugan Songs</h3>
+            <p>Devotional Tamil</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="mu2.jpg">
+        <div class="info">
+            <h3>Tamil Hits</h3>
+            <p>Trending Music</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="hiphop.jpg">
+        <div class="info">
+            <h3>Hip Hop</h3>
+            <p>Modern Beats</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="download (1)123.jpg">
+        <div class="info">
+            <h3>Vijay Songs</h3>
+            <p>Thalapathy Special</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="download (1)2.jpg">
+        <div class="info">
+            <h3>GV Prakash</h3>
+            <p>Music Director</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="download (1)3.jpg">
+        <div class="info">
+            <h3>Chill Vibes</h3>
+            <p>Relax & Focus</p>
+        </div>
+    </div>
+
+    <!-- NEW ADDITIONAL BOXES -->
+    <div class="card">
+        <img src="download (1)4.png">
+        <div class="info">
+            <h3>Melody Tunes</h3>
+            <p>Soothing Music</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="download (1)5.jpg">
+        <div class="info">
+            <h3>Piano Classics</h3>
+            <p>Instrumental</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
